@@ -2,6 +2,29 @@
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
   color: #5a5a5a;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+
+}
+
+#portfolio {
+  margin-top: 0;
+}
+
+.wrap {
+  min-height: calc(100vh - 72px);
+}
+
+.contact {
+  background-color: black;
+  opacity: .9;
+
+}
+
+.footer {
+  background-color: black;
+
 }
