@@ -1,6 +1,6 @@
 /* Social media SVG's*/
 
-a.social {
+.social {
   text-indent: -9999px;
   margin-left: 5px;
   width: 30px;
@@ -8,22 +8,32 @@ a.social {
   background-size: 30px 30px;
   opacity: 1;
   transition: all .5s;
+  display: inline-block;
+
 }
 
 
-a.linkedin {
+.linkedin {
   background-image: url(../images/linkedin.svg);
 }
 
-a.github {
+.github {
   background-image: url(../images/github.svg);
 }
 
-a.social:hover {
+.social:hover {
   opacity: .4;
 }
 
 .email {
   background-image: url(../images/mail.svg);
+
+}
+
+.social2 {
+  @extend .social;
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
 
 }
