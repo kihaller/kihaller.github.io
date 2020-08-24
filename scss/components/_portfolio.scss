@@ -11,10 +11,29 @@
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 
-.list-group-item {
-  font-size: .9rem;
-  padding: 7px;
+.portfolio-container {
+  margin-bottom: 150px;
+
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-header {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.skill {
+  margin: 5px;
+  border: $color-text 1px solid;
+  padding: 10px;
 }
