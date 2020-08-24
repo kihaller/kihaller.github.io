@@ -1,3 +1,5 @@
+/* Fade in animations*/
+
 .fade-in-element {
   animation: 1s ease-in 0s normal forwards 1 fadein;
   -webkit-animation: 1s ease-in 0s normal forwards 1 fadein;
@@ -34,3 +36,56 @@
 .hidden {
   opacity: 0;
 }
+
+/* Slide In animations*/
+.slide-in-from-left {
+  animation: slide-in-left 1.0s forwards;
+  -webkit-animation: slide-in-left 1.0s forwards;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+.slide-in-from-right {
+  animation: slide-in-right 1.0s forwards;
+  -webkit-animation: slide-in-right 1.0s forwards;
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+
+}
+
