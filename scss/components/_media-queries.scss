@@ -14,9 +14,31 @@
   }
 }
 
-@media (max-width: 425px) {
+
+
+@media (min-width: 769px) {
   .container-contact {
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .social-container {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .story {
+    display: block;
+  }
+
+  .project-buttons {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    border-right: white 1px solid;
 
   }
 }
