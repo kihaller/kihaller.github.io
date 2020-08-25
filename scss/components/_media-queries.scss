@@ -37,7 +37,7 @@
 }
 
 @media (min-width: 992px) {
-  .nav-link {
+  .nav-link:not(:last-child) {
     border-right: white 1px solid;
 
   }
