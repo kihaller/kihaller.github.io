@@ -13,3 +13,10 @@
     margin-top: 7rem;
   }
 }
+
+@media (max-width: 425px) {
+  .container-contact {
+    flex-direction: column;
+
+  }
+}
