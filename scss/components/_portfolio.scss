@@ -58,8 +58,8 @@
     border: 1px solid #fff;
     box-shadow: 2px 2px 5px $color-text;
     transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
     text-decoration: none;
 
   }
@@ -71,5 +71,5 @@
   color: white;
   color: $color-text;
   border: 1px solid lightgrey;
-  box-shadow: 2px 2px 20px lightgrey;
+  box-shadow: 2px 2px 2px lightgrey;
 }

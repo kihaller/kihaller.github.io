@@ -42,7 +42,7 @@
     for (element of elements) {
       var positionFromTop = element.getBoundingClientRect().top;
 
-      if (positionFromTop - windowHeight / 2 <= 0) {
+      if (positionFromTop - (3 * windowHeight) / 4 <= 0) {
         element.classList.add("slide-in-from-left");
         element.classList.remove("hidden");
       }
@@ -70,7 +70,7 @@
     for (element of elements) {
       var positionFromTop = element.getBoundingClientRect().top;
 
-      if (positionFromTop - windowHeight / 2 <= 0) {
+      if (positionFromTop - (3 * windowHeight) / 4 <= 0) {
         element.classList.add("slide-in-from-right");
         element.classList.remove("hidden");
       }
