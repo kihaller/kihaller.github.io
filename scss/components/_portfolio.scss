@@ -8,11 +8,18 @@
 
 /* Thin out the marketing headings */
 .featurette-heading {
+  // color: $color-blue;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
   margin-top: 0 !important;
   margin-bottom: 1rem;
+}
+
+.featurette-image {
+  margin-top: 20px;
+
+
 }
 
 
@@ -27,6 +34,7 @@
 }
 
 .skills-header {
+  // color: $color-blue;
   display: flex;
   align-items: center;
   margin-top: 2rem;

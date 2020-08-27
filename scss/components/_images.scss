@@ -1,17 +1,29 @@
-#jumbotron1,
 #about {
-  background-image: url("../images/mountains.jpg");
+  background-image: url("../images/title-photo.jpg");
+  background-position: center;
   background-size: cover;
   height: 50vh;
-
-  h1 {
-    text-align: center;
-
-  }
 }
 
-.cog-icon,
-.eye-icon {
-  font-size: 40px;
+#jumbotron1 {
+  background-image: url("../images/socal.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+
+}
+
+
+.introduction {
+  text-align: center;
+ 
+}
+
+
+
+
+.cog-icon {
+
+  font-size: 32px;
   margin-right: 10px;
 }

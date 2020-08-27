@@ -36,9 +36,14 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .nav-link:not(:last-child) {
     border-right: white 1px solid;
+
+  }
+
+  .introduction {
+    font-size: 40px;
 
   }
 }
@@ -48,5 +53,33 @@
     text-align: center;
 
   }
+
+}
+
+
+// @media (max-width: 767px) {
+//   .bg-dark {
+//     background-color: #000 !important;
+
+//   }
+
+// 
+
+
+
+@media (max-width: 576px) {
+  .introduction {
+    font-size: 30px;
+    bottom: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  .introduction {
+    font-size: 25px;
+    bottom: 100px;
+
+  }
+
 
 }

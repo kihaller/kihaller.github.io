@@ -1,6 +1,10 @@
 .bg-dark {
   background: transparent !important;
   transition: 0.5s ease;
+
+  // @media (max-width: 992px) {
+ //   background: #000 !important;
+ // }
 }
 
 .bg-dark.scrolled {
