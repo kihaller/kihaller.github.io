@@ -42,10 +42,6 @@
 
   }
 
-  .introduction {
-    font-size: 40px;
-
-  }
 }
 
 @media (max-width: 1023px) {
@@ -69,15 +65,15 @@
 
 @media (max-width: 576px) {
   .introduction {
-    font-size: 30px;
+    font-size: 32px;
     bottom: 100px;
   }
 }
 
 @media (max-width: 375px) {
   .introduction {
-    font-size: 25px;
-    bottom: 100px;
+    font-size: 32px;
+    bottom: 50px;
 
   }
 
