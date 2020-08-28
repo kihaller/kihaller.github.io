@@ -1,10 +1,19 @@
 # Portfolio
 
-The following project was cr
-
-![Preview of website](/Users/kimhaller/Desktop/Projects_Techdegree/techdegree-capstone-portfolio/recordings/Directory-desktop.gif)
+The following project was created to showcase the projects I have been working on so far.
 
 ## Skills
 
 * JavaScript
-* 
+
+* Boostrap
+
+* jQuery
+
+* CSS
+
+* Sass
+
+* HTML
+
+  
