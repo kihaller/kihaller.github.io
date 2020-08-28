@@ -16,8 +16,8 @@
 
 .introduction {
   font-size: 50px;
-  position: absolute;
-  bottom: 150px;
+  // position: absolute;
+  // bottom: 150px;
   left: 0;
   right: 0;
   margin: auto
@@ -26,4 +26,9 @@
 #jumbotron1 {
   position: relative;
 
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
 }

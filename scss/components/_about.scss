@@ -233,16 +233,9 @@
     right: auto;
     left: -50px
   }
-
-  .main-timeline .timeline-content {
-    // margin-top: 75px
-  }
 }
 
 @media only screen and (max-width:990px) {
-  .main-timeline .timeline {
-    // margin: 0 0 10px
-  }
 
   .main-timeline .timeline-icon {
     left: 25%
@@ -250,10 +243,6 @@
 
   .main-timeline .timeline:nth-child(even) .timeline-icon {
     right: 25%
-  }
-
-  .main-timeline .timeline-content {
-    // margin-top: 115px  
   }
 }
 
