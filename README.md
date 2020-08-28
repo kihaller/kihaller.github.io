@@ -6,7 +6,7 @@ The following project was created to showcase the projects I have been working o
 
 * JavaScript
 
-* Boostrap
+* Bootstrap
 
 * jQuery
 
