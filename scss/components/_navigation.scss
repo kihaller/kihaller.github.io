@@ -3,8 +3,8 @@
   transition: 0.5s ease;
 
   // @media (max-width: 992px) {
- //   background: #000 !important;
- // }
+  //   background: #000 !important;
+  // }
 }
 
 .bg-dark.scrolled {
@@ -21,4 +21,8 @@
 
 .nav-container {
   position: relative;
+}
+
+.black {
+  background-color: #000 !important;
 }
