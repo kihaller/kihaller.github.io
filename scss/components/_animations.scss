@@ -7,29 +7,29 @@
 
 @keyframes fadein {
   0% {
-    opacity: 0
+    opacity: 0;
   }
 
   80% {
-    opacity: 0
+    opacity: 0;
   }
 
   100% {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 @-webkit-keyframes fadein {
   0% {
-    opacity: 0
+    opacity: 0;
   }
 
   80% {
-    opacity: 0
+    opacity: 0;
   }
 
   100% {
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -39,8 +39,8 @@
 
 /* Slide In animations*/
 .slide-in-from-left {
-  animation: slide-in-left 1.0s forwards;
-  -webkit-animation: slide-in-left 1.0s forwards;
+  animation: slide-in-left 1s forwards;
+  -webkit-animation: slide-in-left 1s forwards;
 }
 
 @keyframes slide-in-left {
@@ -68,8 +68,8 @@
 }
 
 .slide-in-from-right {
-  animation: slide-in-right 1.0s forwards;
-  -webkit-animation: slide-in-right 1.0s forwards;
+  animation: slide-in-right 1s forwards;
+  -webkit-animation: slide-in-right 1s forwards;
 }
 
 @keyframes slide-in-right {
@@ -94,5 +94,4 @@
     -webkit-transform: translateX(0%);
     opacity: 1;
   }
-
 }
